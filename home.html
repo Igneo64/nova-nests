@@ -7,30 +7,38 @@
 <body>
 <div id="nest-container">
 <h1>This is a quick guide to nests in the Nova and surrounding area.</h1>
-</div>
+<h3>Jim Barnett:</h3>
+<div>Current Spawn: Electabuzz</div>
+<div>Average Spawn Rate: 11</div>
+<div>Notes: Great for driving or walking, also lots of spot you can stop your car to catch and then keep moving. </div>
+
+<h3>Ida Lee:</h3>
+<div>Current Spawn: Not known at this time.</div>
+<div>Average Spawn Rate: 9</div>
+<div>Notes:  </div>
 
 
 <script>
     $.getJSON("nests.json", function(result){
         $.each(result.nests, function(key, val) {
 var name = document.createElement("h3");
-var node = document.createTextNode(val.name);
+var node = document.createTextNode("Current Spawn:" + val.name);
 name.appendChild(node);
 
 var spawn = document.createElement("p");
-var node = document.createTextNode(val.spawn);
+var node = document.createTextNode("Current Spawn:" + val.spawn);
 spawn.appendChild(node);
 
 var rate = document.createElement("p");
-var node = document.createTextNode(val.rate);
+var node = document.createTextNode("Average Spawn Rate:" + val.rate);
 rate.appendChild(node);
 
 var notes = document.createElement("p");
-var node = document.createTextNode(val.notes);
+var node = document.createTextNode("Notes:" + val.notes);
 notes.appendChild(node);
 
 var town = document.createElement("p");
-var node = document.createTextNode(val.name);
+var node = document.createTextNode("Town:" + val.name);
 town.appendChild(node);
 
 
