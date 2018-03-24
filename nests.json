@@ -24,8 +24,29 @@
     "name": "CNO Trail",
 "spawn": "Kabuto",
 "rate": 7,
-"notes": "N/A",
+"notes": "Update me!",
 "town": "Brunswick"
+    },
+    {
+    "name": "Rust Nature Sanctuary",
+"spawn": "Not known at this time.",
+"rate": 6,
+"notes": "This park has some nice trails, and is overall a nice place to visit. Though weddings and other events are held in the house and front lawn sometimes.",
+"town": "Lessburg"
+    },
+    {
+    "name": "Ball's Bluff",
+"spawn": "Not known at this time.",
+"rate": 5,
+"notes": "Walking paths only.",
+"town": "Lessburg"
+    },
+    {
+    "name": "Franklin Park",
+"spawn": "Not known at this time.",
+"rate": 9,
+"notes": "Update me!",
+"town": "Purcellville"
     }
     ]
 }
