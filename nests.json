@@ -1,16 +1,31 @@
 {
     "nests":[{
+        "name": "Jim Barnett",
+"spawn": "Electabuzz",
+"rate": 11,
+"notes": "Great for driving or walking, also lots of spot you can stop your car to catch and then keep moving.",
+"town": "Leesburg"
+    },
+{
     "name": "Morven Park",
-"spawn": "Not known",
-"rate": "6",
+"spawn": "Not known at this time.",
+"rate": 6,
 "notes": "Driving can get you some of the spawns, but most are along walking trails I believe.",
 "town": "Leesburg"
     },
     {
     "name": "Ida Lee",
-"spawn": "Not known",
-"rate": "6",
-"notes": "Driving can get you some of the spawns, but most are along walking trails I believe.",
+"spawn": "Not known at this time.",
+"rate": 6,
+"notes": "Driving can get you a lot of the spawns, but there's plenty of walking paths for hunting too.",
 "town": "Leesburg"
-    }]
+    },
+    {
+    "name": "CNO Trail",
+"spawn": "Kabuto",
+"rate": 7,
+"notes": "N/A",
+"town": "Brunswick"
+    }
+    ]
 }
