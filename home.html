@@ -23,17 +23,15 @@
     $.getJSON("nests.json", function(result){
     console.log(result)
         $.each(result.nests, function(key, val) {
-            console.log("test")
-            alert(val.name);
+var para = document.createElement("p");
+var node = document.createTextNode(val.name);
+para.appendChild(node);
+var element = document.getElementById("nest-container");
+element.appendChild(para);
+            console.log(val.name);
 })
     });
 //console.log(nestFile)
-var para = document.createElement("p");
-var node = document.createTextNode("This is new.");
-para.appendChild(node);
-
-var element = document.getElementById("nest-container");
-element.appendChild(para);
 </script>
 </body>
 </html>
