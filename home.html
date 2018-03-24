@@ -19,16 +19,35 @@
 
 
 <script>
-    console.log("test")
     $.getJSON("nests.json", function(result){
-    console.log(result)
         $.each(result.nests, function(key, val) {
-var para = document.createElement("p");
+var name = document.createElement("h3");
 var node = document.createTextNode(val.name);
-para.appendChild(node);
+name.appendChild(node);
+
+var spawn = document.createElement("p");
+var node = document.createTextNode(val.spawn);
+spawn.appendChild(node);
+
+var rate = document.createElement("p");
+var node = document.createTextNode(val.rate);
+rate.appendChild(node);
+
+var notes = document.createElement("p");
+var node = document.createTextNode(val.notes);
+notes.appendChild(node);
+
+var town = document.createElement("p");
+var node = document.createTextNode(val.name);
+town.appendChild(node);
+
+
 var element = document.getElementById("nest-container");
-element.appendChild(para);
-            console.log(val.name);
+element.appendChild(name);
+element.appendChild(spawn);
+element.appendChild(rate);
+element.appendChild(notes);
+element.appendChild(town);
 })
     });
 //console.log(nestFile)

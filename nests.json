@@ -1,16 +1,16 @@
 {
     "nests":[{
     "name": "Morven Park",
-"Current Spawn": "Not known",
-"Average Spawn Rate": "6",
-"Notes": "Driving can get you some of the spawns, but most are along walking trails I believe.",
-"Town": "Leesburg"
+"spawn": "Not known",
+"rate": "6",
+"notes": "Driving can get you some of the spawns, but most are along walking trails I believe.",
+"town": "Leesburg"
     },
     {
     "name": "Ida Lee",
-"Current Spawn": "Not known",
-"Average Spawn Rate": "6",
-"Notes": "Driving can get you some of the spawns, but most are along walking trails I believe.",
-"Town": "Leesburg"
+"spawn": "Not known",
+"rate": "6",
+"notes": "Driving can get you some of the spawns, but most are along walking trails I believe.",
+"town": "Leesburg"
     }]
 }
