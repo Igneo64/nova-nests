@@ -2,6 +2,11 @@
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+body {
+    background-color: #DFE2DB;
+}
+    </style>
 <title>Nova Nests</title>
 </head>
 <body>
@@ -12,23 +17,23 @@
     $.getJSON("nests.json", function(result){
         $.each(result.nests, function(key, val) {
 var name = document.createElement("h3");
-var node = document.createTextNode("Name:" + val.name);
+var node = document.createTextNode("Name: " + val.name);
 name.appendChild(node);
 
 var spawn = document.createElement("p");
-var node = document.createTextNode("Current Spawn:" + val.spawn);
+var node = document.createTextNode("Current Spawn: " + val.spawn);
 spawn.appendChild(node);
 
 var rate = document.createElement("p");
-var node = document.createTextNode("Average Spawn Rate:" + val.rate);
+var node = document.createTextNode("Average Spawn Rate: " + val.rate);
 rate.appendChild(node);
 
 var notes = document.createElement("p");
-var node = document.createTextNode("Notes:" + val.notes);
+var node = document.createTextNode("Notes: " + val.notes);
 notes.appendChild(node);
 
 var town = document.createElement("p");
-var node = document.createTextNode("Town:" + val.name);
+var node = document.createTextNode("Town: " + val.name);
 town.appendChild(node);
 
 
